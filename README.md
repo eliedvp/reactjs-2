@@ -35,5 +35,5 @@ Création d'une interface **inspirante et engageante**, combinant **design moder
 
 1. **Cloner le projet :**
 ```bash
-git clone https://github.com/eliedvp/freshstyle.git
+git clone https://github.com/eliedvp/reactjs-2.git
 cd freshstyle
