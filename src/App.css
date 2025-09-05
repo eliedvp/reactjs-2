@@ -1,0 +1,94 @@
+
+/* styles.css */
+
+/* Background général */
+.fresh-bg {
+  background: linear-gradient(135deg, #e0f7fa, #e8f5e9, #fff3e0);
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+/* Navbar */
+.fresh-navbar {
+  background: linear-gradient(90deg, #43cea2, #185a9d);
+}
+
+/* Titres */
+.artistic-title {
+  color: #2e7d32;
+  font-family: 'Brush Script MT', cursive;
+  animation: slideDown 1s ease-out;
+}
+
+.subtitle {
+  color: #607d8b;
+  font-family: 'Georgia', serif;
+  animation: fadeInUp 1.2s ease-in-out;
+}
+
+/* Cartes */
+.fresh-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.fresh-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 12px 25px rgba(0,0,0,0.2);
+}
+
+.card-img-hover {
+  transition: transform 0.4s ease;
+}
+
+.card-img-hover:hover {
+  transform: scale(1.05);
+}
+
+.card-title {
+  color: #00695c;
+  font-family: 'Trebuchet MS', sans-serif;
+}
+
+/* Boutons */
+.btn-hover {
+  transition: all 0.3s ease;
+}
+
+.btn-hover:hover {
+  transform: scale(1.1);
+  opacity: 0.9;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideDown {
+  from { transform: translateY(-30px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes fadeInUp {
+  from { transform: translateY(30px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+
+/* Fleurs tournantes et flottantes */
+.rotating-flower {
+  display: inline-block;
+  animation: spin 6s linear infinite, float 3s ease-in-out infinite;
+}
+
+/* Rotation */
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/* Flottement */
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
