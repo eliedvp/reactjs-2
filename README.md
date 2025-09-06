@@ -17,12 +17,7 @@ Le projet met en avant :
 ---
 
 ## ✨ Ambiance visuelle
-
-- 🌸 Fleurs qui tournent et flottent  
-- 🌿 Icônes des cartes animées et vivantes  
-- 📸 Images lumineuses et dynamiques  
-- 🔘 Boutons et cartes avec effets artistiques  
-
+ 
 ---
 
 ## 💡 Objectif
